@@ -1,0 +1,41 @@
+.link-certificate{
+    background-color: yellow;
+    width: 90%;
+    height: auto;
+    margin: 2px auto;
+    padding: 4px 0px;
+}
+.button-interaction{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    position: absolute;
+    left: 45%;
+    top: -20px;
+}
+.mail-instruction{
+    font-size: 0.8em;
+    position: relative;
+    cursor: pointer;
+}
+.fas{
+    font-size: 1.5em;
+    margin-top: 0.5em;
+}
+.mail-notification{
+    width: 80%;
+    margin: 2px auto;
+    font-size: 0.7em;
+    text-align: center;
+}
+@media only screen and (max-width : 500px) {
+    /* Styles */
+    .link-certificate{
+        
+        width: 100%;
+        height: auto;
+        margin: 2px auto;
+        padding: 8px 0px;
+        font-size: xx-small;
+    }
+    }
