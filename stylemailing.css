@@ -1,0 +1,87 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 100%;
+  
+  font-size: 14px;
+}
+.contenedor{
+    width: 100%;
+    margin: 0px auto;
+}
+.header {
+  width: 50%;
+  margin: 20px 10px;
+}
+.title-purple {
+  color: rgb(102, 15, 110);
+  font-size: 40px;
+}
+.title-purple span {
+  color: rgb(19, 25, 45);
+  font-size: 40px;
+}
+.saludo {
+  color: rgb(19, 25, 45);
+  font-size: 24px;
+}
+.diploma {
+  width: 100%;
+  margin: 10px auto;
+  border: 3px solid #a4b2bf;
+}
+.descubre {
+  text-align: center;
+}
+.gif {
+  width: 80%;
+  margin: 10%;
+  border-radius: 5px;
+  border: 3px solid #a4b2bf;
+}
+.instrucciones {
+  color: rgb(102, 15, 110);
+  text-align: center;
+}
+.sombra {
+  width: 30%;
+  float: left;
+  background-color: #a7a7a7;
+  margin: 10px 0 0 5px;
+}
+.marco {
+  margin: 50px 4rem;
+}
+.marco2 {
+  margin: 50px 4rem;
+  border: 1px solid rgb(102, 15, 110);
+  border-radius: 10px;
+}
+.politica {
+  color: rgb(76, 81, 85);
+  font-size: 11px;
+  text-align: center;
+}
+.footer {
+  height: 50px;
+  background-color: #212121;
+  margin-top: 50px;
+}
+.pfooter {
+  font-size: 9px;
+  text-align: center;
+  margin: 20px 50px;
+}
+.rrss1 {
+  width: 20px;
+  margin: 15px 0 15px 15rem;
+}
+.rrss2 {
+  width: 20px;
+  margin: 15px 0rem 15px 2rem;
+}
+ @media screen and (min-width: 500px) {
+        .contenedor {
+          width: 50%;
+          margin: 0px auto;
+        }
