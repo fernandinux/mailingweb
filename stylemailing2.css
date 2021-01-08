@@ -2,7 +2,7 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   width: 100%;
-
+  margin: 0px;
   font-size: 14px;
 }
 .contenedor {
@@ -52,7 +52,6 @@ body {
   margin: 50px 7rem;
 }
 .marco2 {
-  margin: 20px 9rem;
   border: none;
   border-radius: 8px;
   display: flex;
@@ -102,15 +101,21 @@ body {
   text-align: center;
 }
 .ejemplo {
-  margin: 50px 10rem 10px 10rem;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 .imgejemplo {
-  width: 100%;
   border: 2px solid #a4b2bf;
+  max-width: 330px;
 }
 .botonlinkedin {
   color: white;
 }
 .textoinicial {
   margin: 2rem;
+}
+.buttonclass {
+  width: 250px;
+  margin: 0px auto;
 }
