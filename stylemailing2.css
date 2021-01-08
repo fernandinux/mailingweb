@@ -2,12 +2,12 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   width: 100%;
-  
+
   font-size: 14px;
 }
-.contenedor{
-    max-width: 600px;
-    margin: 0px auto;
+.contenedor {
+  max-width: 600px;
+  margin: 0px auto;
 }
 .header {
   width: 50%;
@@ -32,12 +32,11 @@ body {
 }
 .descubre {
   text-align: center;
+  margin: 2rem;
 }
 .gif {
-  width: 80%;
-  margin: 10%;
-  border-radius: 5px;
-  border: 3px solid #a4b2bf;
+  width: 30px;
+  margin-right: 10px;
 }
 .instrucciones {
   color: #00a99d;
@@ -50,22 +49,34 @@ body {
   margin: 10px 0 0 5px;
 }
 .marco {
-  margin: 50px 4rem;
+  margin: 50px 7rem;
 }
 .marco2 {
-  margin: 50px 4rem;
-  border: 1px solid #00a99d;
-  border-radius: 10px;
+  margin: 20px 9rem;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #2867b2;
+  text-decoration: none;
 }
 .politica {
   color: rgb(76, 81, 85);
   font-size: 11px;
   text-align: center;
+  margin: 40px;
 }
 .footer {
   height: 50px;
   background-color: #212121;
   margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 1rem;
 }
 .pfooter {
   font-size: 9px;
@@ -73,15 +84,33 @@ body {
   margin: 20px 50px;
 }
 .rrss1 {
-  width: 20px;
-  margin: 15px 0 15px 15rem;
+  width: 70px;
+  margin: 15px 0;
 }
 .rrss2 {
   width: 20px;
-  margin: 15px 0rem 15px 2rem;
+  margin: 15px 0px;
 }
- @media screen and (min-width: 500px) {
-        .contenedor {
-          width: 50%;
-          margin: 0px auto;
-        }
+.button {
+  color: #ffffff;
+  font-size: 22px;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 8px;
+  background: #22b573;
+  display: block;
+  text-align: center;
+}
+.ejemplo {
+  margin: 50px 10rem 10px 10rem;
+}
+.imgejemplo {
+  width: 100%;
+  border: 2px solid #a4b2bf;
+}
+.botonlinkedin {
+  color: white;
+}
+.textoinicial {
+  margin: 2rem;
+}
